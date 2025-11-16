@@ -72,4 +72,3 @@ def get_top_cities(top_n=10):
 def get_high_value_orders(threshold=5000):
     high_value = df.groupby('Order ID')['Amount'].sum().reset_index()
     return high_value[high_value['Amount'] > threshold]
-
