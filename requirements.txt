@@ -1,13 +1,6 @@
-# Data handling
-pandas==2.1.1
-numpy==1.26.5
-pymongo==4.4.0
-
-# Dashboard & visualization
-dash==2.23.1
-dash-bootstrap-components==1.4.1
+dash==2.13.1
+dash-bootstrap-components==1.4.2
 plotly==5.18.0
-
-# Optional plotting & utilities
-matplotlib==3.8.1
-
+pandas==2.1.1
+numpy==1.26.1
+pymongo==5.3.3
